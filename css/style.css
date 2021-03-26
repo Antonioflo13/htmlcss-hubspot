@@ -1,0 +1,42 @@
+/* debug */
+header {
+    height: 845px;
+    background-color: aqua;
+}
+
+main {
+    height: 2933px;
+    background-color: blue;
+}
+
+footer {
+    height: 618px;
+    background-color: brown;
+}
+
+.aqua-space {
+    height: 80px;
+    background-color: aquamarine;
+}
+/* common */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.margin-container {
+    margin: 0 auto;
+}
+
+/* body */
+body
+{
+
+}
+
+/* header */
+.header-nav {
+    height: 77px;
+    background-color: burlywood;
+}
