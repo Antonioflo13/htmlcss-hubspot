@@ -4,6 +4,16 @@ header {
     background-color: aqua;
 }
 
+.jumbotron {
+    height: 200px;
+    background-color: tomato;
+}
+
+.aqua-space {
+    height: 80px;
+    background-color: aquamarine;
+}
+
 main {
     height: 2933px;
     background-color: blue;
@@ -14,9 +24,10 @@ footer {
     background-color: brown;
 }
 
-.aqua-space {
-    height: 80px;
-    background-color: aquamarine;
+
+.header-nav2 {
+    height: 77px;
+    background-color: burlywood;
 }
 /* common */
 * {
@@ -26,17 +37,63 @@ footer {
 }
 
 .margin-container {
+    width: 75%;
     margin: 0 auto;
 }
 
-/* body */
-body
-{
+.list-inline li,
+a {
+    display: inline-block;
+    padding: 0 5px;
+}
 
+.float-left {
+    float: left;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.btn {
+    line-height: 40px;
+    padding: 10px;
+    border: 1px solid #FE775A;
+    border-radius: 5px;
+}
+
+.btn-orange {
+    background-color: #FE775A;
+}
+/* body */
+body {
+    font-family: 'Nunito', sans-serif;
 }
 
 /* header */
 .header-nav {
-    height: 77px;
-    background-color: burlywood;
+    line-height: 77px;
 }
+
+.nav-right {
+    width: 65%;
+}
+
+.nav-right {
+    width: 70%;
+    text-align: right;
+}
+
+.nav-left li :nth-child(2){
+    line-height: 20px;
+    padding-right: 20px;
+    border-right: 1px solid black;
+}
+
+.nav-right li :nth-child(1) {
+    color: #11A9C0;
+}
+
+
