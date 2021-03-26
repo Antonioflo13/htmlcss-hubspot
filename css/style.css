@@ -1,18 +1,10 @@
 /* debug */
 header {
     height: 845px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
-.jumbotron {
-    height: 200px;
-    background-color: tomato;
-}
 
-.aqua-space {
-    height: 80px;
-    background-color: aquamarine;
-}
 
 main {
     height: 2933px;
@@ -24,11 +16,6 @@ footer {
     background-color: brown;
 }
 
-
-.header-nav2 {
-    height: 77px;
-    background-color: burlywood;
-}
 /* common */
 * {
     box-sizing: border-box;
@@ -36,17 +23,22 @@ footer {
     padding: 0;
 }
 
+/* container */
 .margin-container {
     width: 75%;
     margin: 0 auto;
 }
 
+/* list */
 .list-inline li,
 a {
     display: inline-block;
-    padding: 0 5px;
+    padding: 0 3px;
+    text-decoration: none;
+    color: #33465B;
 }
 
+/* float */
 .float-left {
     float: left;
 }
@@ -57,33 +49,72 @@ a {
     clear: both;
 }
 
+/* button */
 .btn {
-    line-height: 40px;
-    padding: 10px;
+    line-height: 20px;
+    padding: 10px 15px;
     border: 1px solid #FE775A;
     border-radius: 5px;
 }
 
+.btn-lg {
+    padding: 20px;
+}
+
 .btn-orange {
     background-color: #FE775A;
+    color: white;
 }
+
+ul :hover a {
+    color: #FE775A;
+}
+
+ul :hover .btn-orange {
+    background-color: unset;    
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
 /* body */
 body {
     font-family: 'Nunito', sans-serif;
+    color: #33465B;
 }
 
 /* header */
+header {
+    position: relative;
+    background-image: url(../img/jumbotron.png);
+    background-size: 107%;
+    background-repeat: no-repeat;
+    background-position:  70% 194%;
+}
+/* header-nav1 */
 .header-nav {
     line-height: 77px;
 }
 
-.nav-right {
-    width: 65%;
+#line {
+    background-color: #F4F9FE;
+    border-bottom: 1px solid  #33465B;
+}
+
+.nav-left {
+    width: 43%;
+    vertical-align: middle;
 }
 
 .nav-right {
-    width: 70%;
+    width: 53%;
     text-align: right;
+    vertical-align: middle;
+}
+
+.nav-right li {
+    margin: 5px;
 }
 
 .nav-left li :nth-child(2){
@@ -92,8 +123,36 @@ body {
     border-right: 1px solid black;
 }
 
-.nav-right li :nth-child(1) {
+#search {
     color: #11A9C0;
 }
 
+/* header-nav2 */
+#logo {
+    width: 110px;
+    vertical-align: middle;
+}
 
+/* jumbotron */
+.jumbotron {
+    position: absolute;
+    top: 28%;
+    width: 558px;
+    /* height: 378px; */
+    /* background-color: tomato; */
+}
+.w-75 {
+    width: 75%;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.aqua-space {
+    height: 80px;
+    border-top: 3px solid #33465B;
+    border-bottom: 3px solid #33465B;
+    background-color: #B0EBE4;
+}
