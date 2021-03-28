@@ -113,7 +113,7 @@ header {
 }
 /* header-nav1 */
 .header-nav {
-    line-height: 77px;
+    line-height: 85px;
 }
 
 #line {
@@ -251,4 +251,76 @@ section {
     list-style: none;
     text-align: left;
 
+}
+
+.bg-gradient {
+    /* height: 700px; */
+    padding: 40px;
+    background: rgb(2,167,186);
+    background: linear-gradient(45deg, rgba(2,167,186,1) 0%, rgba(0,176,177,1) 50%, rgba(4,186,166,1) 100%);
+}
+
+.txt-white {
+    color: white;
+}
+
+.txt-container {
+    text-align: center;
+}
+
+.box-community {
+    width: 25%;
+    /* height: 166px; */
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.txt-big {
+    font-size: 40px;
+}
+
+.fa-plus {
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.border-r-b {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.border-r {
+    border-right: 1px solid white;
+}
+
+.border-b {
+    border-bottom: 1px solid white;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.partners {
+    position: relative;
+    height: 717px;
+    background-image: url(../img/woman.webp);
+    background-size: 24%;
+    background-position: 85% bottom;
+    background-repeat: no-repeat;
+}
+
+.p-logo {
+    width: 122px;
+    vertical-align: middle;
+}
+
+#li {
+    line-height: 30px;
+    border: none;
+}
+
+#top {
+    top:50%
 }
