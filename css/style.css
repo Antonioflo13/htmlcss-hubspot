@@ -1,14 +1,11 @@
 /* debug */
-header {
-    height: 845px;
-    /* background-color: aqua; */
+main {
+    height: 2933px;
 }
 
 
-
-main {
-    height: 2933px;
-    background-color: blue;
+#bg-white {
+    background-color: white;
 }
 
 footer {
@@ -74,9 +71,30 @@ ul :hover .btn-orange {
     background-color: unset;    
 }
 
+/* margin */
 .mb-30 {
     margin-bottom: 30px;
 }
+
+.ml-10 {
+    margin: 0px 15px;
+}
+
+/* txt */
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color:  #33465B;
+}
+
+p {
+    color:  #33465B;
+}
+
+.w-75 {
+    width: 75%;
+}
+
 
 /* body */
 body {
@@ -87,6 +105,7 @@ body {
 /* header */
 header {
     position: relative;
+    height: 845px;
     background-image: url(../img/jumbotron.png);
     background-size: 107%;
     background-repeat: no-repeat;
@@ -141,18 +160,95 @@ header {
     /* height: 378px; */
     /* background-color: tomato; */
 }
-.w-75 {
-    width: 75%;
-}
-
-h1 {
-    font-size: 40px;
-    font-weight: bolder;
-}
 
 .aqua-space {
     height: 80px;
     border-top: 3px solid #33465B;
     border-bottom: 3px solid #33465B;
     background-color: #B0EBE4;
+}
+
+/* section */
+section {
+    background-color: #F4F9FE;
+}
+
+#first-box {
+    position: relative;
+    width: 100%;
+    height: 345px;
+    margin-bottom: 10px;
+}
+
+.col1 {
+    width: 30%;
+    /* height: 655px; */
+    margin: 40px 0;
+}
+
+.col2 {
+    width: 29%;
+    /* height: 655px; */
+    margin: 40px 58px 0px 60px;
+}
+
+.col3 {
+    width: 30%;
+    /* height: 655px; */
+    margin: 40px 0;
+}
+
+#img-big {
+    height: 170px;
+}
+
+.img-small {
+    height: 100px;
+}
+
+.content {
+    width: 82%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    padding: 20px;
+}
+
+.padding-box {
+    padding: 60px 10px;
+}
+
+#img-content {
+    width: 35%;
+    text-align: center;
+}
+
+.txt-box {
+    width: 60%;
+}
+
+#orange {
+    color: #FE775A;
+}
+
+.col-container {
+    text-align: center;
+    padding: 10px 35px;
+}
+
+.col-sub-container {
+    height: 383px;
+    border-bottom: 1px solid #33465B;
+}
+
+.col-sub-container2 {
+    height: 235px;
+}
+
+.list {
+    list-style: none;
+    text-align: left;
+
 }
