@@ -26,8 +26,12 @@ footer {
 a {
     display: inline-block;
     padding: 0 3px;
-    text-decoration: none;
     color: #33465B;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
 }
 
 /* float */
@@ -60,15 +64,22 @@ a {
 
 ul :hover a {
     color: #FE775A;
+    text-decoration: underline;
+    transition: 0.4s;
 }
 
 ul :hover .btn-orange {
-    background-color: unset;    
+    background-color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;    
 }
 
 /* margin */
 .mb-30 {
     margin-bottom: 30px;
+}
+
+.mt-30 {
+    margin-top: 30px;
 }
 
 .ml-10 {
@@ -374,5 +385,19 @@ section {
     width: 25px;
     color: #DBDEE0;
     margin: 5px;
+}
+
+#languages ul {
     text-align: center;
+    border-bottom:1px solid #DBDEE0;
+    padding: 20px;
+}
+
+.f-left {
+    width: 45%;
+}
+
+.f-right {
+    width: 55%;
+    text-align: right;
 }
