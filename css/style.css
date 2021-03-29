@@ -4,7 +4,8 @@
 
 footer {
     height: 618px;
-    background-color: brown;
+    background-color: #33495B;
+    padding: 30px;
 }
 
 /* common */
@@ -350,6 +351,28 @@ section {
 
 #txt-container {
     width: 480px;
-    height: 360px;
+    /* height: 360px; */
     margin-top: 75px;
+}
+
+.f-col {
+    width: calc( 100% / 4 -  40px);
+    margin: 20px;
+}
+
+.list li a {
+    padding: 5px;
+}
+
+#footer-btn {
+    background-color: #DBDEE0;
+    border: none;
+    padding: 10px;
+}
+
+.social-icon a {
+    width: 25px;
+    color: #DBDEE0;
+    margin: 5px;
+    text-align: center;
 }
