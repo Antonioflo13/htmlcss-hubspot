@@ -122,7 +122,7 @@ body {
     color: #33465B;
 }
 
-.help {
+.bot {
     position: fixed;
     z-index: 3;
     right: 2%;
@@ -133,6 +133,7 @@ body {
     background-size: 170%;
     background-position: center;
 }
+
 /* header */
 header {
     position: relative;
