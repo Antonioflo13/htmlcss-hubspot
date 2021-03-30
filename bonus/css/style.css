@@ -1,0 +1,442 @@
+/* common */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-white {
+    background-color: white;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* container */
+.margin-container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* list */
+.list-inline li,
+a {
+    display: inline-block;
+    padding: 0 3px;
+    color: #33465B;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* float */
+.float-left {
+    float: left;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* button */
+.btn {
+    line-height: 20px;
+    padding: 10px 15px;
+    border: 1px solid #FE775A;
+    border-radius: 5px;
+}
+
+.btn-lg {
+    padding: 20px;
+}
+
+.btn-orange {
+    background-color: #FE775A;
+    color: white;
+}
+
+a:hover,
+i.fab:hover {
+    color: #FE775A;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+
+a.btn.btn-orange:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;    
+}
+
+
+/* margin */
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.ml-10 {
+    margin: 0px 15px;
+}
+
+/* txt */
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color:  #33465B;
+}
+
+p {
+    line-height: 25px;
+    color:  #33465B;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.txt-middle {
+    font-size: 30px;
+}
+
+.txt-big {
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+.txt-white {
+    color: white;
+}
+
+/* body */
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #33465B;
+}
+
+.bot {
+    position: fixed;
+    z-index: 3;
+    right: 2%;
+    bottom: 3%;
+    border-radius: 50%;
+    padding: 30px 30px;
+    background-image: url(../bonus_chat/launcher-open-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #33465B;
+}
+
+.chat {
+    position: fixed;
+    width: 300px;
+    height: 200px;
+    z-index: 3;
+    right: 2%;
+    bottom: 12%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 0px #33465B;
+    background-image: url(../bonus_chat/initial-message-bubble-tail.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F4F9FE;
+}
+
+#txt-chat-bot {
+    padding: 0 30px;
+}
+
+.chat img {
+    position: relative;
+    bottom: 30px;
+    left: 100px;
+    width: 80px;
+}
+
+
+/* header */
+header {
+    position: relative;
+    background-color: #FFF4EF;
+}
+
+/* header-nav1 */
+.header-nav {
+    line-height: 77px;
+}
+
+#header-nav1 {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-color: #F4F9FE;
+    border-bottom: 1px solid  #33465B;
+    vertical-align: middle;
+}
+
+.nav-left {
+    width: 43%;
+}
+
+.nav-right {
+    width: 53%;
+    text-align: right;
+}
+
+.nav-right li {
+    margin: 5px;
+}
+
+.nav-left li :nth-child(2){
+    line-height: 20px;
+    padding-right: 20px;
+    border-right: 1px solid black;
+}
+
+#search {
+    color: #11A9C0;
+}
+
+/* header-nav2 */
+#header-nav2 {
+    width: 100%;
+    z-index: 1;
+    padding-top: 77px;
+    background-color: white;
+}
+
+#logo {
+    width: 110px;
+    vertical-align: middle;
+}
+
+/* jumbotron */
+.jumbotron {
+    width: 100%;
+    height: 609px;
+    position: relative;
+    background-image: url(../img/jumbotron.png);
+    background-size: auto;
+    background-position: right 0%; 
+    background-repeat: no-repeat;
+}
+
+.jumbotron-txt {
+    position: absolute;
+    top: 10%;
+    width: 580px;
+}
+
+.aqua-space {
+    height: 80px;
+    border-top: 3px solid #33465B;
+    border-bottom: 3px solid #33465B;
+    background-color: #B0EBE4;
+}
+
+/* section */
+section {
+    background-color: #F4F9FE;
+}
+
+/* cube */
+#first-box {
+    position: relative;
+    width: 100%;
+    height: 345px;
+    margin-bottom: 10px;
+}
+
+#img-big {
+    height: 170px;
+}
+
+/* article1 */
+#img-content {
+    width: 35%;
+    text-align: center;
+}
+
+/* article2 */
+.img-small {
+    height: 100px;
+}
+
+.content {
+    width: 82%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    padding: 20px;
+}
+
+.padding-box {
+    padding: 60px 10px;
+}
+
+.txt-box {
+    width: 60%;
+}
+
+.fa-check-circle {
+    margin-right: 15px;
+    color: #FE775A;
+}
+
+.col-container {
+    text-align: center;
+    padding: 10px 35px;
+}
+
+.col-sub-container {
+    height: 383px;
+    border-bottom: 1px solid #33465B;
+}
+
+.list {
+    list-style: none;
+    text-align: left;
+}
+
+.col1 {
+    width: 30%;
+    margin: 40px 0;
+}
+
+/* article3 */
+.col2 {
+    width: 29%;
+    margin: 40px 58px 0px 60px;
+}
+
+/* article4 */
+.col3 {
+    width: 30%;
+    margin: 40px 0;
+}
+
+/* community */
+.bg-gradient {
+    background: rgb(2,167,186);
+    background: linear-gradient(45deg, rgba(2,167,186,1) 0%, rgba(0,176,177,1) 50%, rgba(4,186,166,1) 100%);
+    padding: 40px;
+    text-align: center;
+}
+
+#padding-community {
+    padding: 60px;
+}
+
+.box-community {
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.fa-plus {
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.border-r-b {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.border-r {
+    border-right: 1px solid white;
+}
+
+.border-b {
+    border-bottom: 1px solid white;
+}
+
+/* partners */
+.partners {
+    padding: 50px 0;
+    background-image: url(../img/woman.webp);
+    background-repeat: no-repeat;
+    background-size: 23%;
+    background-position: 85% 80%;
+}
+
+.p-logo {
+    width: 128px;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+#bold {
+    font-weight: bolder;
+}
+
+#partners-padding {
+    padding: 0 100px;
+}
+
+#txt-container-40 {
+    width: 40%;
+}
+
+.logo-container {
+    width: 60%;
+    line-height: 60px;
+}
+
+#txt-container {
+    width: 480px;
+    margin-top: 75px;
+}
+
+footer {
+    height: 618px;
+    background-color: #33495B;
+    padding: 30px;
+}
+
+.f-col {
+    width: calc( 100% / 4 -  40px);
+    margin: 20px;
+}
+
+.list li a {
+    padding: 5px;
+}
+
+#footer-btn {
+    background-color: #DBDEE0;
+    border: none;
+    padding: 10px;
+}
+
+.social-icon a {
+    width: 25px;
+    color: #DBDEE0;
+    margin: 5px;
+}
+
+#languages ul {
+    text-align: center;
+    border-bottom:1px solid #DBDEE0;
+    padding: 20px;
+}
+
+.f-left {
+    width: 45%;
+}
+
+.f-right {
+    width: 55%;
+    text-align: right;
+}
