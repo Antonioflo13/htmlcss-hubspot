@@ -337,10 +337,6 @@ section {
 /* partners */
 .partners {
     padding: 50px 0;
-    background-image: url(../img/woman.webp);
-    background-repeat: no-repeat;
-    background-size: 23%;
-    background-position: 85% 80%;
 }
 
 .p-logo {
@@ -367,10 +363,16 @@ section {
 }
 
 #txt-container {
-    width: 480px;
+    width: 40%;
     margin-top: 75px;
 }
 
+#woman {
+    height: 500px;
+    margin-left: 225px;
+}
+
+/* footer */
 footer {
     height: 618px;
     background-color: #33495B;
