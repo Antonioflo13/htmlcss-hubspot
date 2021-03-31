@@ -122,6 +122,7 @@ body {
     color: #33465B;
 }
 
+/* chat-bot */
 .bot {
     position: fixed;
     z-index: 3;
@@ -160,7 +161,6 @@ body {
     left: 100px;
     width: 80px;
 }
-
 
 /* header */
 header {
@@ -218,6 +218,30 @@ header {
     vertical-align: middle;
 }
 
+.nav-left ul ul {
+    position: absolute;
+    line-height: 50px;
+    text-align: center;
+    display: none;
+}
+
+.nav-left ul li {
+    position: relative;
+}
+
+.nav-left ul li:hover ul {
+    display: block;
+}
+
+.nav-left ul ul li a {
+    display: block;
+}
+
+.nav-left ul :hover ul {
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+
+}
 /* jumbotron */
 .jumbotron {
     width: 100%;
